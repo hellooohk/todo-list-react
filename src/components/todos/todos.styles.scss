@@ -1,0 +1,25 @@
+.Todos{
+    .todo-item{
+        display: flex;
+        justify-content: space-between;
+        background-color: aliceblue;
+        padding: 0.5rem;
+        margin: 0.2rem 0;
+        
+    }
+    .todo-content{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    button{
+        padding: 0 0.5rem;
+        font-weight: 600;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .underline{
+        text-decoration:line-through;
+    }
+}
