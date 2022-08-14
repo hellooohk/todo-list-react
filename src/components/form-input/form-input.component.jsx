@@ -11,6 +11,7 @@ const FormInput = () => {
       id: Math.floor(Math.random() * 10000),
       content: inputValue,
       is_complete:false,
+      edit:false,
     };
     setTodos([...todos, item]);
   };

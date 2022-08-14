@@ -4,6 +4,7 @@ import Todos from "./components/todos/todos.component";
 function App() {
   return (
     <div>
+
       <FormInput />
       <Todos/>
     </div>
